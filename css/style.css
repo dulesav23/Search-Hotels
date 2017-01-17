@@ -1,0 +1,98 @@
+.centeredContent{
+	text-align: center;
+	margin-top: 30px
+}
+.search-result{
+	border: 1px solid black;
+	border-radius: 5px
+}
+.addSpacingToLiElement{
+	margin: 0 0 12px 0
+}
+.errorMessageContainer{
+	background-color: lightgray;
+	height: 50px;
+	border-radius: 3px;
+	line-height: 45px;
+	border: 1px solid black;
+	text-align: left
+}
+.loadHotelsButton{
+	width: 150px;
+	border: solid 1px gray
+}
+.invisible{
+	display: none
+}
+.customButtons{
+	cursor: pointer
+}
+.fitContentRight{
+	text-align: right
+}
+.bx-pager{
+	display:none
+}
+.bx-wrapper{
+	margin: 0px auto auto;
+}
+.bx-wrapper .bx-viewport{
+	left: 0px;
+	border: none
+}
+.star-icon {
+    color: #ddd;
+    font-size: 1.4em;
+    position: relative
+}
+.star-icon.full:before {
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+    color: black;
+    content: '\2605'; /* Full star in UTF-8 */
+    position: absolute;
+    left: 0
+}
+.addPadding{
+	padding-left: inherit;
+    padding-right: inherit
+}
+.circles{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 50px;
+	color: black;
+	line-height: 38px;
+	text-align: center;
+	background: gray;
+	margin: auto
+}
+.reviewsContainer{
+	border: solid 1px black;
+	background: lightgray
+}
+.addGrayColor{
+	background: #F8F8F8
+}
+.marginFromHotelContainer{
+	margin-top: 27px
+}
+div[style] {
+   height: auto !important;
+}
+img{
+    width: 100%;
+	height: 100%
+}
+ul{
+	list-style-type: none
+}
+strong{
+	font-size: 1.4em
+}
+span{
+	font-size: 0.85em
+}
+p{
+	word-break: break-all
+}
